@@ -8,15 +8,15 @@ import (
 )
 
 func main() {
-	err := client.Login("DISCORD_APP_ID")
+	err := client.Login("1495530318357205094")
 	if err != nil {
 		panic(err)
 	}
 
 	now := time.Now()
 	err = client.SetActivity(client.Activity{
-		State:      "Heyy!!!",
-		Details:    "I'm running on rich-go :)",
+		State:      "Vibing to Music",
+		Details:    "This is a test btw :)",
 		LargeImage: "largeimageid",
 		LargeText:  "This is the large image :D",
 		SmallImage: "smallimageid",
